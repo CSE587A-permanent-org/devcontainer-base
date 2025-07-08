@@ -1,9 +1,7 @@
 {
 	"name": "Comp Bio Base Container",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
+	"image": "ghcr.io/michael-brent/compbio-base:latest",
+
 	// #TODO Change source of utils to github before pushing to github
 	// comment mounts statement below when pushing to github, reverse for local utils
 	// "mounts": [
